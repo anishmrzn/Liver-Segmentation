@@ -5,3 +5,6 @@ Loss metrics
 ![image](https://github.com/user-attachments/assets/fd67759c-3686-42c9-94d5-fd18c2027559)
 ![image](https://github.com/user-attachments/assets/57af84bf-35ca-41bc-a2ec-e27d6da5dfb3)
 Output
+
+https://drive.google.com/drive/folders/1E_P51We1UQW3Xpp_RZYBfXakRy-hF5ou?usp=drive_link
+drive link for Data and Results
