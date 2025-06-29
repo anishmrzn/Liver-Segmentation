@@ -1,4 +1,5 @@
 Liver Segmentation
+
 ![image](https://github.com/user-attachments/assets/9cffe66e-acfb-4cc8-b31c-1d89bff5b856)
 Loss metrics
 
@@ -13,12 +14,14 @@ https://drive.google.com/drive/folders/1E_P51We1UQW3Xpp_RZYBfXakRy-hF5ou?usp=dri
 drive link for Data and Results
 
 Total Segmentator
+
 ![image](https://github.com/user-attachments/assets/cdde7558-7579-44e0-90f1-3af254a6c325)
 ![image](https://github.com/user-attachments/assets/a03c0b79-a628-4f81-ae7d-224600360b64)
 
 Results for totalsegmentator output
 
 MedSam
+
 Processing Volumes:   0%|                                                                                                                              1 [00:00<?, ?it/s]
 Processing liver_120.nii.gz with 424 slices...
    Volume liver_120: Dice = 0.8557, Jaccard = 0.7478
