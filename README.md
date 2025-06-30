@@ -20,7 +20,7 @@ Total Segmentator
 
 Results for totalsegmentator output
 
-MedSam
+MedSam using totalsegmentator output as prompt box
 
 Processing Volumes:   0%|                                                                                                                              1 [00:00<?, ?it/s]
 Processing liver_120.nii.gz with 424 slices...
@@ -71,3 +71,65 @@ Average Jaccard Score across 11 processed volumes: 0.8282
 
 Results for medsam output.
 
+MedSam using unet model output as prompt box
+
+--- Starting UNet Inference and MedSAM Integration ---
+Processing Volumes (UNet + MedSAM):   0%|                                                                                                                            | 0/11 [00:00<?, ?it/s] 
+Processing liver_120.nii.gz with 424 slices using UNet and MedSAM...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9764705882352942].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.8796029724062906].
+   Volume liver_120: UNet Dice = 0.8592, UNet Jaccard = 0.7531 | MedSAM Dice = 0.8027, MedSAM Jaccard = 0.6704
+Processing Volumes (UNet + MedSAM):   9%|██████████▎                                                                                                      | 1/11 [11:08<1:51:29, 668.92s/it]
+Processing liver_121.nii.gz with 463 slices using UNet and MedSAM...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9764705882352942].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.592612357219051].
+   Volume liver_121: UNet Dice = 0.7732, UNet Jaccard = 0.6302 | MedSAM Dice = 0.7970, MedSAM Jaccard = 0.6625
+Processing Volumes (UNet + MedSAM):  18%|████████████████████▎                                                                                           | 2/11 [33:34<2:40:00, 1066.69s/it]
+Processing liver_122.nii.gz with 422 slices using UNet and MedSAM...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9764705882352942].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2].
+   Volume liver_122: UNet Dice = 0.9069, UNet Jaccard = 0.8297 | MedSAM Dice = 0.8772, MedSAM Jaccard = 0.7812
+Processing Volumes (UNet + MedSAM):  27%|██████████████████████████████▊                                                                                  | 3/11 [46:56<2:06:08, 946.12s/it]
+Processing liver_123.nii.gz with 432 slices using UNet and MedSAM...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9764705882352942].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2].
+   Volume liver_123: UNet Dice = 0.8965, UNet Jaccard = 0.8124 | MedSAM Dice = 0.9096, MedSAM Jaccard = 0.8342
+Processing Volumes (UNet + MedSAM):  36%|█████████████████████████████████████████                                                                        | 4/11 [56:02<1:31:57, 788.22s/it]
+Processing liver_124.nii.gz with 407 slices using UNet and MedSAM...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9764705882352942].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.894106757998383].
+   Volume liver_124: UNet Dice = 0.8764, UNet Jaccard = 0.7800 | MedSAM Dice = 0.8957, MedSAM Jaccard = 0.8112
+Processing Volumes (UNet + MedSAM):  45%|████████████████████████████████████████████████████▎                                                              | 5/11 [59:40<58:15, 582.61s/it]
+Processing liver_125.nii.gz with 410 slices using UNet and MedSAM...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9764705882352942].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.6459607949252457].
+   Volume liver_125: UNet Dice = 0.9476, UNet Jaccard = 0.9004 | MedSAM Dice = 0.8794, MedSAM Jaccard = 0.7848
+Processing Volumes (UNet + MedSAM):  55%|█████████████████████████████████████████████████████████████▋                                                   | 6/11 [1:05:07<41:17, 495.56s/it]
+Processing liver_126.nii.gz with 401 slices using UNet and MedSAM...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9764705882352942].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9476846537914732].
+   Volume liver_126: UNet Dice = 0.9191, UNet Jaccard = 0.8503 | MedSAM Dice = 0.8823, MedSAM Jaccard = 0.7895
+Processing Volumes (UNet + MedSAM):  64%|███████████████████████████████████████████████████████████████████████▉                                         | 7/11 [1:09:29<27:57, 419.26s/it]
+Processing liver_127.nii.gz with 987 slices using UNet and MedSAM...
+   Volume liver_127: UNet Dice = 0.9067, UNet Jaccard = 0.8293 | MedSAM Dice = 0.8442, MedSAM Jaccard = 0.7305
+Processing Volumes (UNet + MedSAM):  73%|██████████████████████████████████████████████████████████████████████████████████▏                              | 8/11 [1:21:10<25:26, 508.79s/it]
+Processing liver_128.nii.gz with 654 slices using UNet and MedSAM...
+   Volume liver_128: UNet Dice = 0.9294, UNet Jaccard = 0.8681 | MedSAM Dice = 0.9001, MedSAM Jaccard = 0.8183
+Processing Volumes (UNet + MedSAM):  82%|████████████████████████████████████████████████████████████████████████████████████████████▍                    | 9/11 [1:31:11<17:55, 537.57s/it]
+Processing liver_129.nii.gz with 338 slices using UNet and MedSAM...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9764705882352942].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.2].
+   Volume liver_129: UNet Dice = 0.7869, UNet Jaccard = 0.6486 | MedSAM Dice = 0.9483, MedSAM Jaccard = 0.9017
+Processing Volumes (UNet + MedSAM):  91%|█████████████████████████████████████████████████████████████████████████████████████████████████████▊          | 10/11 [1:39:25<08:44, 524.16s/it]
+Processing liver_130.nii.gz with 624 slices using UNet and MedSAM...
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.9764705882352942].
+Clipping input data to the valid range for imshow with RGB data ([0..1] for floats or [0..255] for integers). Got range [0.0..1.5257425802507294].
+   Volume liver_130: UNet Dice = 0.9202, UNet Jaccard = 0.8521 | MedSAM Dice = 1.0162, MedSAM Jaccard = 1.0329
+Processing Volumes (UNet + MedSAM): 100%|████████████████████████████████████████████████████████████████████████████████████████████████████████████████| 11/11 [1:53:53<00:00, 621.26s/it]
+
+--- Processing Complete ---
+
+Average UNet Dice Score across 11 processed volumes: 0.8838
+Average UNet Jaccard Score across 11 processed volumes: 0.7958
+Average MedSAM Dice Score (UNet Prompt) across 11 processed volumes: 0.8866
+Average MedSAM Jaccard Score (UNet Prompt) across 11 processed volumes: 0.8016
